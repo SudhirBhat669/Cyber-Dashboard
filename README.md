@@ -1,8 +1,6 @@
 # 🚨 Cybersecurity: Suspicious Web Threat Interactions
 A real-time Machine Learning-powered Flask dashboard that analyzes web traffic logs to detect **suspicious behaviors** using **anomaly detection**, visualizes patterns with graphs, and triggers email alerts on abnormal activity.
 
-
-
 ## 📌 Project Objective
 To detect and analyze patterns in web interactions for identifying potentially harmful or malicious activities using:
 - Machine Learning (Isolation Forest)
@@ -10,6 +8,9 @@ To detect and analyze patterns in web interactions for identifying potentially h
 - Email alerts for suspicious activity
 - SQLite for backend log storage
 - A live interactive dashboard with filters
+
+<img width="825" height="561" alt="Image" src="https://github.com/user-attachments/assets/4e375dd7-5b7c-46f5-96de-df55e7e2902e" />
+<img width="1282" height="468" alt="Image" src="https://github.com/user-attachments/assets/4f8ce90a-512f-4e14-9a5e-33b5b6589cfb" />
 
 ## 📊 Features
 - ✅ Preprocess & label suspicious activity in CSV web traffic logs
