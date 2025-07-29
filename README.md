@@ -53,7 +53,7 @@ Cybersecurity_Dashboard/
 
 ## 🧪 Local Setup Instructions
 ### 1. Clone the Repo
-git clone https://github.com/your-username/Cyber-Dashboard.git
+git clone (https://github.com/SudhirBhat669/Cyber-Dashboard.git)
 cd Cyber-Dashboard
 
 ## How to Run
