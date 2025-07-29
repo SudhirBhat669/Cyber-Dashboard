@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+.dataframe {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+.dataframe th, .dataframe td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
