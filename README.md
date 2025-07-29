@@ -1,5 +1,5 @@
 # 🚨 Cybersecurity: Suspicious Web Threat Interactions
-A real-time Machine Learning-powered Flask dashboard that analyzes web traffic logs to detect **suspicious behaviors** using **anomaly detection**, visualizes patterns with graphs, and triggers email alerts on abnormal activity.
+A real-time Machine Learning-powered Flask dashboard that analyzes web traffic logs to detect suspicious behaviors using anomaly detection, visualizes patterns with graphs, and triggers email alerts on abnormal activity.
 
 ## 📌 Project Objective
 To detect and analyze patterns in web interactions for identifying potentially harmful or malicious activities using:
@@ -23,33 +23,33 @@ To detect and analyze patterns in web interactions for identifying potentially h
 
 ## 🧰 Tech Stack
 
-| Layer          | Tools Used                                      |
-|----------------|-------------------------------------------------|
-| Language       | Python                                          |
-| Backend        | Flask                                           |
-| ML Model       | Isolation Forest (Scikit-learn)                 |
-| Database       | SQLite3                                         |
-| Frontend       | Jinja2 (HTML), CSS, Matplotlib, Seaborn         |
-| Alerts         | smtplib (email.message)                         |
-| Deployment     | Render / GitHub Pages                           |
+-| Layer          | Tools Used                                      |
+-|----------------|-------------------------------------------------|
+-| Language       | Python                                          |
+-| Backend        | Flask                                           |
+-| ML Model       | Isolation Forest (Scikit-learn)                 |
+-| Database       | SQLite3                                         |
+-| Frontend       | Jinja2 (HTML), CSS, Matplotlib, Seaborn         |
+-| Alerts         | smtplib (email.message)                         |
+-| Deployment     | Render / GitHub Pages                           |
 
 ## 📂 Folder Structure
 Cybersecurity_Dashboard/
-├── app.py # Flask dashboard app
-├── preprocess_and_train.py # Preprocessing + ML model
-├── model/
-│ └── model.pkl # Saved Isolation Forest model
-├── dataset/
-│ └── preprocessed_data.csv # Cleaned traffic data
-├── database/
-│ └── threat_logs.db # SQLite log storage
-├── templates/
-│ └── dashboard.html # Jinja2 HTML UI
-├── static/
-│ └── style.css # Custom dashboard styles
-├── .env # SMTP & Render secrets (optional)
-├── requirements.txt # All required Python packages
-└── README.md
+-├── app.py # Flask dashboard app
+-├── preprocess_and_train.py # Preprocessing + ML model
+-├── model/
+-│ └── model.pkl # Saved Isolation Forest model
+-├── dataset/
+-│ └── preprocessed_data.csv # Cleaned traffic data
+-├── database/
+-│ └── threat_logs.db # SQLite log storage
+-├── templates/
+-│ └── dashboard.html # Jinja2 HTML UI
+-├── static/
+-│ └── style.css # Custom dashboard styles
+-├── .env # SMTP & Render secrets (optional)
+-├── requirements.txt # All required Python packages
+-└── README.md
 
 ## 🧪 Local Setup Instructions
 ### 1. Clone the Repo
@@ -59,19 +59,14 @@ cd Cyber-Dashboard
 ## How to Run
 1. Install requirements:
 pip install -r requirements.txt
-
 2. Create Virtual Environment (Optional)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\\Scripts\\activate
-
 3. Install Requirements
-bash
-Copy
-Edit
 pip install -r requirements.txt
 4. Preprocess and Train Model
 python preprocess_and_train.py
 5. Start Flask App
 python app.py
-Then open your browser and navigate to:
+6. Then open your browser and navigate to:
 Open in browser: http://127.0.0.1:5000/
